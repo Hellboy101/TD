@@ -1,8 +1,10 @@
 var TD = window.TD || {};
 
+// Main module for Javascript
 TD.App = function (document, $, console) {
     'use strict';
 
+    // Initialisation of all other modules
     var init = function() {
         TD.Index.init();
     };
