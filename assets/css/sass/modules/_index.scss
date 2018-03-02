@@ -1,0 +1,64 @@
+.main-content{
+    background-color: $main-bg-color;
+    margin-bottom: 20px;
+
+    .form-inline {
+        padding-top: 20px;
+
+        .form-group {
+            padding-right: 20px;
+            margin-bottom: 40px;
+
+            @media (max-width: 768px){
+                padding-left: 20px;
+            }
+        }
+
+        .btn-submit {
+            margin-right: 20px;
+        }
+    }
+
+    a[data-toggle="tooltip"] {
+        display: inline-block;
+        @include border-radius(25px);
+        border: 1px solid $light-green;
+        padding: 0 4px;
+        font-size: 8px;
+        @include links($light-green);
+        color: $light-green;
+    }
+
+    .btn {
+        margin-left: 20px;
+        color: white;
+    }
+
+    .btn-cancel {
+        background-color: $btn-cancel-bg;
+    }
+
+    .btn-submit {
+        background-color: $btn-submit-bg;
+    }
+
+    @media (max-width: 992px){
+        .with-tooltip {
+            display: inline-block;
+            max-width: 95%;
+        }
+
+        .personal-info h2 {
+            font-size: 18px;
+            text-align: center;
+        }
+
+        .appliance {
+            text-align: center;
+        }
+
+        .application-info .btn-submit {
+            width: calc(100% - 40px);
+        }
+    }
+}

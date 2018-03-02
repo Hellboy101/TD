@@ -1,0 +1,2 @@
+var TD=window.TD||{};TD.App=function(n,i,o){"use strict";return{init:function(){TD.Index.init()}}}(window.document,window.jQuery,window.console),window.jQuery(document).ready(TD.App.init);
+var TD=window.TD||{};TD.Index=function(o,n,t){"use strict";return{init:function(){n('[data-toggle="tooltip"]').tooltip()}}}(window.document,window.jQuery,window.console);
