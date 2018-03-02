@@ -134,5 +134,10 @@
         .collapse.in {
             display:block !important;
         }
+
+        .dropdown-menu {
+            position: relative;
+            width: 100%;
+        }
     }
 }
