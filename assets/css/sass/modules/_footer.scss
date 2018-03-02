@@ -4,6 +4,7 @@
     .container {
         display: flex;
         justify-content: space-around;
+        align-items: flex-end;
 
         & > div {
             padding: 20px;
